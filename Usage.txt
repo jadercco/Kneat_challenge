@@ -1,0 +1,35 @@
+Application developed as a test for the company Kneat Software.
+
+1. Goal
+2. Structure
+3. How to Use
+
+-------------------------------------------------- --------
+
+1. Goal
+
+The application aims to show my knowledge in .NET C # for the company Knet Software. The company proposed the challenge of obtaining some specific data from the api (https://swapi.co/api/) regarding ships and using the distance entered by the user, calculate the number of stops that would be required by each ship.
+
+2. Structure
+
+The solution (Kneat) was divided into two projects:
+ 2.1 - Kneat: Project responsible for the logical part of the project.
+	Folder> API
+		GatewayApi.cs - Class responsible for connecting to API and transforming the return (JSON) into a manipulable model.
+	Folder> Model
+		StarshipModel.cs - Main application model.
+		StarshipResultModel.cs - Model responsible for receiving API data.
+	MainCalculator.cs - Class responsible for the proposed calculation to solve the problem.
+	Program.cs - Main class of the system, responsible for receiving the data entered by the user and returning the calculated values.
+
+ 2.2 - Kneat.Test: Project responsible for testing the application's entries.
+	KneatCalculateStops.cs - Class responsible for testing basic user input values ​​and checking expected outputs.
+
+3. How to use
+
+Run the project within the Visual Studio environment.
+The system will start at the command prompt and prompt the user to enter the desired distance (MGLT). [Ex: 1000000]
+After entering the distance, the system will search the list of available ships and display the name and number of stops needed to complete the distance. [name: stops]
+To exit the application, press any key
+
+Ps: The application is showing only valid and compatible results with the proposal. The API returned several other ships that did not have the necessary values ​​to perform the calculation and these ships were removed from the final result on purpose.
