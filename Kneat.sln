@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kneat", "Kneat\Kneat.csproj", "{A867CF14-7D34-4CDB-ADBE-3E23427B51FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kneat.Test", "Kneat.Test\Kneat.Test.csproj", "{4C6D1A5E-A21D-43DC-9351-D7C47D2D1911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A867CF14-7D34-4CDB-ADBE-3E23427B51FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A867CF14-7D34-4CDB-ADBE-3E23427B51FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A867CF14-7D34-4CDB-ADBE-3E23427B51FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A867CF14-7D34-4CDB-ADBE-3E23427B51FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6D1A5E-A21D-43DC-9351-D7C47D2D1911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6D1A5E-A21D-43DC-9351-D7C47D2D1911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6D1A5E-A21D-43DC-9351-D7C47D2D1911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6D1A5E-A21D-43DC-9351-D7C47D2D1911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BD833E3-F022-42ED-9677-1E8AAAE5D941}
+	EndGlobalSection
+EndGlobal
